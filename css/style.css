@@ -1,0 +1,148 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+   min-height: 100vh;
+   background-color: lightpink;
+   background-size: cover;
+   background-position: center;
+}
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 60px;
+  width: 100%;
+  padding: 20px 100px;
+  background: beige;  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+.logo{
+    font-size: 25px;
+    color: palevioletred;
+    text-decoration: none;
+    font-weight: 700;
+}
+.navbar a{
+    font-size: 18px;
+    color: palevioletred;
+    font-weight: 500;
+    height: 1px;
+}
+
+nav .logo p { 
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 0;
+    letter-spacing: .1em;
+    float: left;
+    color: white;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+nav ul {
+    float: right;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+nav li a{
+    font-size: 15px;
+    padding: 0px 30px;
+    color: white;
+    text-decoration: none;
+}
+.center-image{
+    width: 100vw;
+    display: block;
+    margin: 0 auto;
+    background-size: cover;
+    position: relative;
+}
+.content-items{
+    margin-top: 100px;
+}
+.form{
+margin-top: 100px;
+}
+.row{
+    margin-top: 150px;
+}
+.card{
+    margin-top: 100px;
+}
+.content-items{
+
+    display: block;
+}
+.form-group{
+    margin-top: 100px;
+    margin-left: 1;
+    margin-bottom: 200px;
+}
+.flower-shop-img{
+    width: 100vw;
+}
+.content-items{
+    text-align: center;
+}
+.wrapper-content-items{
+width:50%;
+height: 600px;
+background: #ffffff;
+margin: 0 auto;
+border: 2px solid #ffffff;
+margin-top: 200px;
+margin-bottom: 200px;
+background: url(flower-bg.avif);
+background-size: cover;
+box-sizing: border-box;
+}
+.btn{
+    margin-top: 10px;
+}
+.checkout-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+}
+footer {
+    background-color: palevioletred;
+    color: beige;
+    padding: 20px 0;
+    max-width: 100vw;
+}
+.footer-content{
+    text-align: center;
+}    
+.container{
+    margin-bottom: 100px;
+    max-width: max-content;
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: lightpink;
+    border: 1px solid lightpink;
+    border-radius: 5px;
+}
+.background-image-element {
+    background-image: url(flower-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 200px; 
+}
+
+
